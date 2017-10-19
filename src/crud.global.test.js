@@ -42,7 +42,7 @@ describe('Step 1 global REST calls', () => {
             it('should return array with user', () => {
                 request.get('/user').expect(res => {
                     expect(res.body.length).toEqual(1);
-                    isUserEqual(res.body, simpleUser)
+                    expect(isUserEqual(res.body, simpleUser)).toBe(true);
                 }).end(done);
             });
         });
@@ -58,7 +58,7 @@ describe('Step 1 global REST calls', () => {
                 request.get('/user').expect(res => {
                     expect(res.body.length).toEqual(10);
                     _.forEach(res.body, userReturned => {
-                       expect(_.find(tenUsers, user => isUserEqual(userReturned, user))).toBe(true);
+                       expect(_.find(tenUsers, user => isUserEqual(userReturned, user))).toBeTruthy();
                     });
                 })
                     .end(done);
@@ -86,7 +86,7 @@ describe('Step 1 global REST calls', () => {
         });
 
 
-        it('should return same user', done =>{
+        it('should return same user', done => {
             request.post('/user').send(simpleUser).expect(res => {
                 expect(isUserEqual(res.body, simpleUser)).toBe(true);
             }).end(done);

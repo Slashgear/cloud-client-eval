@@ -1,8 +1,9 @@
+const _ = require('lodash');
+
 module.exports = {
+
     isUserEqual(userTested, user) {
-        expect(userTested.firstName).toEqual(user.firstName);
-        expect(userTested.lastName).toEqual(user.lastName);
-        expect(userTested.birthDay).toEqual(user.birthDay);
-        expect(userTested.position).toEqual(user.position);
-    }
-}
+        return _.isEqual(_.omit(userTested, 'id'), _.omit(user, 'id'));
+    },
+
+};
