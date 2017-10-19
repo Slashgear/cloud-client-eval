@@ -2,6 +2,6 @@
 
 Npm package to eval cloud API of course https://github.com/Slashgear/cloud
 
-- Clone
+- Clone repository
 - npm install
-- npm start
+- npm test
