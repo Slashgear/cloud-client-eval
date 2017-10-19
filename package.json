@@ -9,12 +9,12 @@
     "lodash": "4.17.4"
   },
   "scripts": {
-    "test": "jest test.js --runInBand",
-    "step:1": "jest crud --runInBand",
-    "step:2": "jest pagination --runInBand",
-    "step:3": "jest search --runInBand",
-    "step:3bis": "jest perf --runInBand",
-    "step:3ter": "jest https --runInBand"
+    "test": "jest test.js",
+    "step:1": "jest crud",
+    "step:2": "jest pagination",
+    "step:3": "jest search",
+    "step:3bis": "jest perf",
+    "step:3ter": "jest https"
   },
   "devDependencies": {
     "babel-jest": "21.2.0",

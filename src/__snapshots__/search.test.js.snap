@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Step 3 search test Search by age should return users 1`] = `Array []`;

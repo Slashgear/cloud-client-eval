@@ -1,1 +1,0 @@
-//test if api is available over https
