@@ -1,11 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Step 1 specific REST calls DELETE /user/:id should return 204 status 1`] = `
-Object {
-  "message": "No such user",
-}
-`;
-
 exports[`Step 1 specific REST calls GET /user/:id should return user 1`] = `
 Object {
   "birthDay": "02/24/1994",

@@ -1,6 +1,6 @@
 const _ = require('lodash');
 
-const baseUrl = require('./utils/baseUrl');
+const baseUrl = require('../baseUrl');
 const request = require('supertest')(baseUrl);
 
 const simpleUser = require('../data/user.json');

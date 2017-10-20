@@ -1,6 +1,6 @@
 const _ = require('lodash');
 
-const baseUrl = require('./utils/baseUrl');
+const baseUrl = require('../baseUrl');
 const request = require('supertest')(baseUrl);
 
 const simpleUser = require('../data/user.json');
@@ -8,33 +8,32 @@ const simpleUser = require('../data/user.json');
 describe('Step 1 specific REST calls', () => {
 
     describe('GET /user/:id',() => {
-        beforeEach(done =>
-            request.delete('/user').end(200, () => {
-                done();
+        let id;
+
+        beforeEach(done => {
+            request.delete('/user').expect(200, () => {
+                request.post('/user').send(simpleUser).expect(201, (err, res) => {
+                    id = res.body.id;
+                    done();
+                });
             })
-        );
+        });
 
         it('should return 200 status', done => {
-            request.post('/user').send(simpleUser).end((err,res) => {
-                request.get(`/user/${res.body.id}`)
-                    .expect(200)
-                    .end(done)
-            });
+            request.get(`/user/${id}`)
+                .expect(200).end(done);
         });
 
         it('should return user', done => {
-            request.post('/user').send(simpleUser).end((err,res) => {
-                request.get(`/user/${res.body.id}`)
-                    .expect(res => {
-                        expect(_.omit(res.body, 'id')).toMatchSnapshot();
-                    }).end(done)
-            });
+            request.get(`/user/${id}`)
+                .end((err,resp) => {
+                    expect(_.omit(resp.body, 'id')).toMatchSnapshot();
+                    done();
+                });
         });
 
         it('should return 404 status', done => {
-            request.post('/user').send(simpleUser).end((err,res) => {
-                request.get(`/user/fakeid`).expect(404).end(done);
-            })
+            request.get(`/user/fakeid`).expect(404).end(done);
         });
     });
 
@@ -48,7 +47,8 @@ describe('Step 1 specific REST calls', () => {
         it('should return 204 status', done => {
             request.post('/user').send(simpleUser).end((err,res) => {
                 request.delete(`/user/${res.body.id}`)
-                    .expect(204).end(done);
+                    .expect(204);
+                done();
             })
         });
 
