@@ -1,3 +1,2071 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Step 3 search test Search by age should return users 1`] = `Array []`;
+exports[`Step 3 search test Search by age should return different users for page 2 1`] = `
+Array [
+  Object {
+    "birthDay": "07/01/1951",
+    "firstName": "elijah",
+    "lastName": "singh",
+    "position": Object {
+      "lat": 3.808487,
+      "lon": -122.845695,
+    },
+  },
+  Object {
+    "birthDay": "12/31/1959",
+    "firstName": "ahmet",
+    "lastName": "sinanoğlu",
+    "position": Object {
+      "lat": 10.387221,
+      "lon": 109.15659,
+    },
+  },
+  Object {
+    "birthDay": "01/15/1945",
+    "firstName": "mélody",
+    "lastName": "simon",
+    "position": Object {
+      "lat": -40.260406,
+      "lon": 94.456154,
+    },
+  },
+  Object {
+    "birthDay": "03/22/1948",
+    "firstName": "marin",
+    "lastName": "simon",
+    "position": Object {
+      "lat": -8.032934,
+      "lon": -47.771777,
+    },
+  },
+  Object {
+    "birthDay": "05/18/1965",
+    "firstName": "julio",
+    "lastName": "simmons",
+    "position": Object {
+      "lat": 79.220581,
+      "lon": 70.675278,
+    },
+  },
+  Object {
+    "birthDay": "08/13/1961",
+    "firstName": "davide",
+    "lastName": "silva",
+    "position": Object {
+      "lat": -38.503624,
+      "lon": 21.309958,
+    },
+  },
+  Object {
+    "birthDay": "08/18/1967",
+    "firstName": "hanna",
+    "lastName": "silva",
+    "position": Object {
+      "lat": 61.294044,
+      "lon": -19.214528,
+    },
+  },
+  Object {
+    "birthDay": "10/01/1955",
+    "firstName": "harvey",
+    "lastName": "silva",
+    "position": Object {
+      "lat": -3.720797,
+      "lon": -52.598132,
+    },
+  },
+  Object {
+    "birthDay": "03/04/1954",
+    "firstName": "nicole",
+    "lastName": "siebert",
+    "position": Object {
+      "lat": -4.291489,
+      "lon": 62.146485,
+    },
+  },
+  Object {
+    "birthDay": "07/12/1966",
+    "firstName": "jar",
+    "lastName": "shelton",
+    "position": Object {
+      "lat": 56.407272,
+      "lon": -38.234788,
+    },
+  },
+  Object {
+    "birthDay": "03/01/1952",
+    "firstName": "jesus",
+    "lastName": "serrano",
+    "position": Object {
+      "lat": -55.791198,
+      "lon": -102.512088,
+    },
+  },
+  Object {
+    "birthDay": "05/10/1951",
+    "firstName": "gökhan",
+    "lastName": "sepetçi",
+    "position": Object {
+      "lat": -83.880219,
+      "lon": -117.990767,
+    },
+  },
+  Object {
+    "birthDay": "11/26/1961",
+    "firstName": "ted",
+    "lastName": "scott",
+    "position": Object {
+      "lat": -16.840746,
+      "lon": -151.905452,
+    },
+  },
+  Object {
+    "birthDay": "04/25/1951",
+    "firstName": "debbie",
+    "lastName": "scott",
+    "position": Object {
+      "lat": 61.793994,
+      "lon": 34.37114,
+    },
+  },
+  Object {
+    "birthDay": "12/13/1949",
+    "firstName": "camille",
+    "lastName": "scott",
+    "position": Object {
+      "lat": -28.333724,
+      "lon": 94.351688,
+    },
+  },
+  Object {
+    "birthDay": "06/10/1963",
+    "firstName": "michel",
+    "lastName": "schön",
+    "position": Object {
+      "lat": -66.568356,
+      "lon": 103.252598,
+    },
+  },
+  Object {
+    "birthDay": "02/09/1946",
+    "firstName": "mika",
+    "lastName": "schumacher",
+    "position": Object {
+      "lat": -44.402264,
+      "lon": 115.991772,
+    },
+  },
+  Object {
+    "birthDay": "07/26/1949",
+    "firstName": "jano",
+    "lastName": "schröder",
+    "position": Object {
+      "lat": 78.668323,
+      "lon": 179.194996,
+    },
+  },
+  Object {
+    "birthDay": "08/12/1960",
+    "firstName": "anna",
+    "lastName": "scholz",
+    "position": Object {
+      "lat": -64.199806,
+      "lon": -147.162452,
+    },
+  },
+  Object {
+    "birthDay": "09/17/1945",
+    "firstName": "amandine",
+    "lastName": "schmitt",
+    "position": Object {
+      "lat": 58.762034,
+      "lon": 169.279069,
+    },
+  },
+  Object {
+    "birthDay": "10/19/1959",
+    "firstName": "clemens",
+    "lastName": "schmidt",
+    "position": Object {
+      "lat": -24.90692,
+      "lon": -27.564753,
+    },
+  },
+  Object {
+    "birthDay": "12/22/1964",
+    "firstName": "wallace",
+    "lastName": "schmidt",
+    "position": Object {
+      "lat": -28.345958,
+      "lon": -94.280204,
+    },
+  },
+  Object {
+    "birthDay": "07/26/1966",
+    "firstName": "ihsane",
+    "lastName": "schijf",
+    "position": Object {
+      "lat": -72.641594,
+      "lon": -169.645934,
+    },
+  },
+  Object {
+    "birthDay": "10/14/1960",
+    "firstName": "veridiano",
+    "lastName": "santos",
+    "position": Object {
+      "lat": 67.635891,
+      "lon": -122.815383,
+    },
+  },
+  Object {
+    "birthDay": "12/29/1949",
+    "firstName": "kelya",
+    "lastName": "sanchez",
+    "position": Object {
+      "lat": 20.119761,
+      "lon": 121.537362,
+    },
+  },
+  Object {
+    "birthDay": "06/03/1953",
+    "firstName": "jose",
+    "lastName": "sanchez",
+    "position": Object {
+      "lat": 47.820476,
+      "lon": 143.770162,
+    },
+  },
+  Object {
+    "birthDay": "11/20/1955",
+    "firstName": "emy",
+    "lastName": "sanchez",
+    "position": Object {
+      "lat": -6.865649,
+      "lon": 99.812071,
+    },
+  },
+  Object {
+    "birthDay": "11/20/1956",
+    "firstName": "scarlett",
+    "lastName": "sanchez",
+    "position": Object {
+      "lat": 2.066,
+      "lon": -117.428547,
+    },
+  },
+  Object {
+    "birthDay": "03/16/1951",
+    "firstName": "stacey",
+    "lastName": "sanchez",
+    "position": Object {
+      "lat": -0.101745,
+      "lon": -23.425744,
+    },
+  },
+  Object {
+    "birthDay": "10/12/1960",
+    "firstName": "nooa",
+    "lastName": "salo",
+    "position": Object {
+      "lat": 23.515314,
+      "lon": -15.588664,
+    },
+  },
+  Object {
+    "birthDay": "06/04/1959",
+    "firstName": "julia",
+    "lastName": "salmi",
+    "position": Object {
+      "lat": 13.872716,
+      "lon": -35.949716,
+    },
+  },
+  Object {
+    "birthDay": "12/14/1958",
+    "firstName": "cariana",
+    "lastName": "sales",
+    "position": Object {
+      "lat": 41.952071,
+      "lon": 161.445161,
+    },
+  },
+  Object {
+    "birthDay": "07/01/1946",
+    "firstName": "pihla",
+    "lastName": "sakala",
+    "position": Object {
+      "lat": 2.374096,
+      "lon": -10.383539,
+    },
+  },
+  Object {
+    "birthDay": "06/26/1952",
+    "firstName": "naomi",
+    "lastName": "ryan",
+    "position": Object {
+      "lat": -41.857025,
+      "lon": -141.632948,
+    },
+  },
+  Object {
+    "birthDay": "05/30/1960",
+    "firstName": "theresa",
+    "lastName": "ryan",
+    "position": Object {
+      "lat": -23.754086,
+      "lon": -57.332553,
+    },
+  },
+  Object {
+    "birthDay": "01/24/1947",
+    "firstName": "jason",
+    "lastName": "russell",
+    "position": Object {
+      "lat": -81.987944,
+      "lon": -146.951246,
+    },
+  },
+  Object {
+    "birthDay": "06/13/1965",
+    "firstName": "oona",
+    "lastName": "ruona",
+    "position": Object {
+      "lat": -39.441754,
+      "lon": 107.509329,
+    },
+  },
+  Object {
+    "birthDay": "01/02/1950",
+    "firstName": "esteban",
+    "lastName": "ruiz",
+    "position": Object {
+      "lat": -64.689505,
+      "lon": -121.701548,
+    },
+  },
+  Object {
+    "birthDay": "06/22/1954",
+    "firstName": "mohamed",
+    "lastName": "ruiz",
+    "position": Object {
+      "lat": 85.877206,
+      "lon": 150.632214,
+    },
+  },
+  Object {
+    "birthDay": "08/15/1961",
+    "firstName": "gönül",
+    "lastName": "ruhe",
+    "position": Object {
+      "lat": 45.742988,
+      "lon": -133.384019,
+    },
+  },
+  Object {
+    "birthDay": "04/19/1958",
+    "firstName": "esteban",
+    "lastName": "rubio",
+    "position": Object {
+      "lat": -22.247103,
+      "lon": -179.791233,
+    },
+  },
+  Object {
+    "birthDay": "04/26/1957",
+    "firstName": "victoria",
+    "lastName": "roy",
+    "position": Object {
+      "lat": -3.605013,
+      "lon": 99.262706,
+    },
+  },
+  Object {
+    "birthDay": "12/21/1965",
+    "firstName": "livio",
+    "lastName": "roy",
+    "position": Object {
+      "lat": 43.164744,
+      "lon": -89.018981,
+    },
+  },
+  Object {
+    "birthDay": "11/21/1951",
+    "firstName": "maëline",
+    "lastName": "roux",
+    "position": Object {
+      "lat": -29.238707,
+      "lon": -138.5491,
+    },
+  },
+  Object {
+    "birthDay": "12/13/1947",
+    "firstName": "noe",
+    "lastName": "roussel",
+    "position": Object {
+      "lat": 68.960077,
+      "lon": -19.61515,
+    },
+  },
+  Object {
+    "birthDay": "09/25/1959",
+    "firstName": "david",
+    "lastName": "roussel",
+    "position": Object {
+      "lat": -66.575238,
+      "lon": -40.603917,
+    },
+  },
+  Object {
+    "birthDay": "01/12/1967",
+    "firstName": "brendan",
+    "lastName": "ross",
+    "position": Object {
+      "lat": -62.47457,
+      "lon": 170.469767,
+    },
+  },
+  Object {
+    "birthDay": "11/22/1953",
+    "firstName": "erika",
+    "lastName": "ross",
+    "position": Object {
+      "lat": -37.734738,
+      "lon": -130.565561,
+    },
+  },
+  Object {
+    "birthDay": "06/02/1964",
+    "firstName": "sümeyye",
+    "lastName": "rosbergen",
+    "position": Object {
+      "lat": -62.832949,
+      "lon": 24.322444,
+    },
+  },
+  Object {
+    "birthDay": "05/19/1946",
+    "firstName": "alexander",
+    "lastName": "romero",
+    "position": Object {
+      "lat": -15.016436,
+      "lon": 131.210581,
+    },
+  },
+  Object {
+    "birthDay": "12/04/1965",
+    "firstName": "marie",
+    "lastName": "rolland",
+    "position": Object {
+      "lat": -47.813323,
+      "lon": -75.391254,
+    },
+  },
+  Object {
+    "birthDay": "01/03/1949",
+    "firstName": "matteo",
+    "lastName": "rolland",
+    "position": Object {
+      "lat": 25.349229,
+      "lon": 5.726741,
+    },
+  },
+  Object {
+    "birthDay": "06/25/1953",
+    "firstName": "begoña",
+    "lastName": "rojas",
+    "position": Object {
+      "lat": 65.767186,
+      "lon": -50.91792,
+    },
+  },
+  Object {
+    "birthDay": "08/06/1955",
+    "firstName": "domingo",
+    "lastName": "rojas",
+    "position": Object {
+      "lat": 51.872864,
+      "lon": 100.194272,
+    },
+  },
+  Object {
+    "birthDay": "02/05/1949",
+    "firstName": "william",
+    "lastName": "rohde",
+    "position": Object {
+      "lat": 47.328192,
+      "lon": 53.171577,
+    },
+  },
+  Object {
+    "birthDay": "04/24/1948",
+    "firstName": "abigail",
+    "lastName": "rodriguez",
+    "position": Object {
+      "lat": 59.566876,
+      "lon": -125.635931,
+    },
+  },
+  Object {
+    "birthDay": "01/27/1961",
+    "firstName": "julien",
+    "lastName": "rodriguez",
+    "position": Object {
+      "lat": 73.414482,
+      "lon": -118.988453,
+    },
+  },
+  Object {
+    "birthDay": "01/01/1953",
+    "firstName": "leon",
+    "lastName": "rodriguez",
+    "position": Object {
+      "lat": -5.101611,
+      "lon": -128.129778,
+    },
+  },
+  Object {
+    "birthDay": "08/30/1956",
+    "firstName": "carina",
+    "lastName": "rodrigues",
+    "position": Object {
+      "lat": -34.839083,
+      "lon": -143.085186,
+    },
+  },
+  Object {
+    "birthDay": "01/30/1962",
+    "firstName": "gabrielle",
+    "lastName": "roche",
+    "position": Object {
+      "lat": -82.543335,
+      "lon": -98.419188,
+    },
+  },
+  Object {
+    "birthDay": "04/07/1953",
+    "firstName": "vincent",
+    "lastName": "robinson",
+    "position": Object {
+      "lat": -27.686306,
+      "lon": 110.510388,
+    },
+  },
+  Object {
+    "birthDay": "02/26/1956",
+    "firstName": "james",
+    "lastName": "robinson",
+    "position": Object {
+      "lat": 14.503784,
+      "lon": -146.176296,
+    },
+  },
+  Object {
+    "birthDay": "12/15/1956",
+    "firstName": "priscilla",
+    "lastName": "robinson",
+    "position": Object {
+      "lat": 11.861888,
+      "lon": -135.110085,
+    },
+  },
+  Object {
+    "birthDay": "02/02/1951",
+    "firstName": "séléna",
+    "lastName": "robin",
+    "position": Object {
+      "lat": 28.938345,
+      "lon": -124.424367,
+    },
+  },
+  Object {
+    "birthDay": "02/08/1959",
+    "firstName": "lucas",
+    "lastName": "robertson",
+    "position": Object {
+      "lat": 49.690245,
+      "lon": 104.600497,
+    },
+  },
+  Object {
+    "birthDay": "03/11/1951",
+    "firstName": "pauline",
+    "lastName": "robert",
+    "position": Object {
+      "lat": -27.946659,
+      "lon": 47.539396,
+    },
+  },
+  Object {
+    "birthDay": "12/23/1965",
+    "firstName": "rose",
+    "lastName": "robert",
+    "position": Object {
+      "lat": -48.695698,
+      "lon": -171.047998,
+    },
+  },
+  Object {
+    "birthDay": "11/08/1962",
+    "firstName": "erwan",
+    "lastName": "riviere",
+    "position": Object {
+      "lat": -88.207804,
+      "lon": -6.707081,
+    },
+  },
+  Object {
+    "birthDay": "11/14/1955",
+    "firstName": "michel",
+    "lastName": "rieger",
+    "position": Object {
+      "lat": 39.566575,
+      "lon": 43.546374,
+    },
+  },
+  Object {
+    "birthDay": "02/13/1954",
+    "firstName": "willi",
+    "lastName": "riedel",
+    "position": Object {
+      "lat": 62.431797,
+      "lon": 105.338617,
+    },
+  },
+  Object {
+    "birthDay": "12/18/1957",
+    "firstName": "sonja",
+    "lastName": "richter",
+    "position": Object {
+      "lat": -66.403571,
+      "lon": 7.250886,
+    },
+  },
+  Object {
+    "birthDay": "07/10/1949",
+    "firstName": "morris",
+    "lastName": "rice",
+    "position": Object {
+      "lat": -68.292304,
+      "lon": -103.707861,
+    },
+  },
+  Object {
+    "birthDay": "02/16/1952",
+    "firstName": "isabelina",
+    "lastName": "ribeiro",
+    "position": Object {
+      "lat": 53.661084,
+      "lon": 159.62437,
+    },
+  },
+  Object {
+    "birthDay": "10/18/1946",
+    "firstName": "felecia",
+    "lastName": "rhodes",
+    "position": Object {
+      "lat": 35.102957,
+      "lon": -170.08293,
+    },
+  },
+  Object {
+    "birthDay": "03/15/1965",
+    "firstName": "roriz",
+    "lastName": "rezende",
+    "position": Object {
+      "lat": -33.711258,
+      "lon": 141.29861,
+    },
+  },
+  Object {
+    "birthDay": "10/29/1953",
+    "firstName": "zará",
+    "lastName": "rezende",
+    "position": Object {
+      "lat": 63.002784,
+      "lon": 24.583904,
+    },
+  },
+  Object {
+    "birthDay": "02/13/1959",
+    "firstName": "ted",
+    "lastName": "reynolds",
+    "position": Object {
+      "lat": 8.503657,
+      "lon": -68.92844,
+    },
+  },
+  Object {
+    "birthDay": "12/10/1949",
+    "firstName": "veronica",
+    "lastName": "reid",
+    "position": Object {
+      "lat": -29.919727,
+      "lon": 24.024599,
+    },
+  },
+  Object {
+    "birthDay": "09/20/1965",
+    "firstName": "merdan",
+    "lastName": "regtop",
+    "position": Object {
+      "lat": 8.841193,
+      "lon": -164.704888,
+    },
+  },
+  Object {
+    "birthDay": "10/21/1964",
+    "firstName": "martha",
+    "lastName": "reed",
+    "position": Object {
+      "lat": 38.999473,
+      "lon": 97.324963,
+    },
+  },
+  Object {
+    "birthDay": "09/01/1944",
+    "firstName": "marlo",
+    "lastName": "rave",
+    "position": Object {
+      "lat": 30.025439,
+      "lon": -95.221899,
+    },
+  },
+  Object {
+    "birthDay": "07/27/1960",
+    "firstName": "lauri",
+    "lastName": "rautio",
+    "position": Object {
+      "lat": 25.93048,
+      "lon": 94.517765,
+    },
+  },
+  Object {
+    "birthDay": "02/15/1955",
+    "firstName": "anni",
+    "lastName": "rautio",
+    "position": Object {
+      "lat": -40.058308,
+      "lon": -172.191617,
+    },
+  },
+  Object {
+    "birthDay": "08/16/1949",
+    "firstName": "andrea",
+    "lastName": "rasmussen",
+    "position": Object {
+      "lat": -84.213354,
+      "lon": -118.005688,
+    },
+  },
+  Object {
+    "birthDay": "12/16/1944",
+    "firstName": "sara",
+    "lastName": "rasmussen",
+    "position": Object {
+      "lat": 35.682774,
+      "lon": -173.769463,
+    },
+  },
+  Object {
+    "birthDay": "08/19/1949",
+    "firstName": "lotta",
+    "lastName": "ramo",
+    "position": Object {
+      "lat": -13.393787,
+      "lon": 36.673686,
+    },
+  },
+  Object {
+    "birthDay": "12/12/1947",
+    "firstName": "montserrat",
+    "lastName": "ramirez",
+    "position": Object {
+      "lat": -11.769228,
+      "lon": 79.056003,
+    },
+  },
+  Object {
+    "birthDay": "01/05/1958",
+    "firstName": "jitze",
+    "lastName": "putter",
+    "position": Object {
+      "lat": -81.943425,
+      "lon": 128.695787,
+    },
+  },
+  Object {
+    "birthDay": "07/30/1949",
+    "firstName": "kasper",
+    "lastName": "pulli",
+    "position": Object {
+      "lat": 5.655073,
+      "lon": -24.241487,
+    },
+  },
+  Object {
+    "birthDay": "10/16/1949",
+    "firstName": "alisa",
+    "lastName": "pulkkinen",
+    "position": Object {
+      "lat": 87.42372,
+      "lon": -55.512288,
+    },
+  },
+  Object {
+    "birthDay": "05/19/1966",
+    "firstName": "james",
+    "lastName": "price",
+    "position": Object {
+      "lat": -16.957616,
+      "lon": -124.137965,
+    },
+  },
+  Object {
+    "birthDay": "02/15/1958",
+    "firstName": "teresa",
+    "lastName": "price",
+    "position": Object {
+      "lat": 16.952036,
+      "lon": -98.363395,
+    },
+  },
+  Object {
+    "birthDay": "05/08/1947",
+    "firstName": "johanne",
+    "lastName": "poulsen",
+    "position": Object {
+      "lat": 41.882861,
+      "lon": -132.662531,
+    },
+  },
+  Object {
+    "birthDay": "01/24/1960",
+    "firstName": "kevin",
+    "lastName": "porter",
+    "position": Object {
+      "lat": 56.81831,
+      "lon": -166.17742,
+    },
+  },
+  Object {
+    "birthDay": "09/13/1960",
+    "firstName": "valtteri",
+    "lastName": "pollari",
+    "position": Object {
+      "lat": 71.20262,
+      "lon": 7.959536,
+    },
+  },
+  Object {
+    "birthDay": "03/17/1960",
+    "firstName": "ellen",
+    "lastName": "pollari",
+    "position": Object {
+      "lat": -80.711788,
+      "lon": -88.707886,
+    },
+  },
+  Object {
+    "birthDay": "10/10/1964",
+    "firstName": "eeli",
+    "lastName": "pollari",
+    "position": Object {
+      "lat": -89.641787,
+      "lon": 111.987328,
+    },
+  },
+  Object {
+    "birthDay": "12/29/1950",
+    "firstName": "ferenc",
+    "lastName": "plug",
+    "position": Object {
+      "lat": 50.291552,
+      "lon": 130.823065,
+    },
+  },
+  Object {
+    "birthDay": "01/10/1948",
+    "firstName": "aristóteles",
+    "lastName": "pires",
+    "position": Object {
+      "lat": 24.857762,
+      "lon": 124.077913,
+    },
+  },
+  Object {
+    "birthDay": "11/21/1946",
+    "firstName": "gerardo",
+    "lastName": "pires",
+    "position": Object {
+      "lat": 25.245221,
+      "lon": 148.186304,
+    },
+  },
+]
+`;
+
+exports[`Step 3 search test Search by age should return users 1`] = `
+Array [
+  Object {
+    "birthDay": "07/19/1959",
+    "firstName": "پارمیس",
+    "lastName": "یاسمی",
+    "position": Object {
+      "lat": 48.376547,
+      "lon": 119.508705,
+    },
+  },
+  Object {
+    "birthDay": "01/27/1956",
+    "firstName": "هلیا",
+    "lastName": "گلشن",
+    "position": Object {
+      "lat": 82.63484,
+      "lon": -61.421812,
+    },
+  },
+  Object {
+    "birthDay": "11/30/1948",
+    "firstName": "رها",
+    "lastName": "گلشن",
+    "position": Object {
+      "lat": -55.086887,
+      "lon": -142.181345,
+    },
+  },
+  Object {
+    "birthDay": "09/19/1951",
+    "firstName": "امیر",
+    "lastName": "گلشن",
+    "position": Object {
+      "lat": 29.115603,
+      "lon": 149.973774,
+    },
+  },
+  Object {
+    "birthDay": "02/05/1956",
+    "firstName": "کیانا",
+    "lastName": "کوتی",
+    "position": Object {
+      "lat": -87.728357,
+      "lon": 125.077092,
+    },
+  },
+  Object {
+    "birthDay": "09/27/1947",
+    "firstName": "طاها",
+    "lastName": "کریمی",
+    "position": Object {
+      "lat": -50.544238,
+      "lon": -167.539434,
+    },
+  },
+  Object {
+    "birthDay": "04/22/1966",
+    "firstName": "مرسانا",
+    "lastName": "کریمی",
+    "position": Object {
+      "lat": -40.774436,
+      "lon": -89.238487,
+    },
+  },
+  Object {
+    "birthDay": "04/22/1960",
+    "firstName": "بیتا",
+    "lastName": "کریمی",
+    "position": Object {
+      "lat": -78.247581,
+      "lon": 21.746576,
+    },
+  },
+  Object {
+    "birthDay": "04/24/1948",
+    "firstName": "حسین",
+    "lastName": "کامروا",
+    "position": Object {
+      "lat": -86.483603,
+      "lon": -147.495645,
+    },
+  },
+  Object {
+    "birthDay": "02/18/1947",
+    "firstName": "آراد",
+    "lastName": "کامروا",
+    "position": Object {
+      "lat": 52.403893,
+      "lon": -83.922416,
+    },
+  },
+  Object {
+    "birthDay": "08/07/1946",
+    "firstName": "آریا",
+    "lastName": "کامروا",
+    "position": Object {
+      "lat": 9.641287,
+      "lon": -170.365403,
+    },
+  },
+  Object {
+    "birthDay": "05/28/1960",
+    "firstName": "حسین",
+    "lastName": "پارسا",
+    "position": Object {
+      "lat": -17.753216,
+      "lon": -7.075112,
+    },
+  },
+  Object {
+    "birthDay": "03/26/1966",
+    "firstName": "دانیال",
+    "lastName": "پارسا",
+    "position": Object {
+      "lat": -64.332639,
+      "lon": -65.521553,
+    },
+  },
+  Object {
+    "birthDay": "03/12/1958",
+    "firstName": "اميرمحمد",
+    "lastName": "نكو نظر",
+    "position": Object {
+      "lat": -71.289616,
+      "lon": -110.291432,
+    },
+  },
+  Object {
+    "birthDay": "04/25/1965",
+    "firstName": "سارا",
+    "lastName": "نكو نظر",
+    "position": Object {
+      "lat": -61.978614,
+      "lon": -74.138561,
+    },
+  },
+  Object {
+    "birthDay": "03/30/1960",
+    "firstName": "آریا",
+    "lastName": "نجاتی",
+    "position": Object {
+      "lat": -69.305418,
+      "lon": -96.588723,
+    },
+  },
+  Object {
+    "birthDay": "06/16/1961",
+    "firstName": "یاسمین",
+    "lastName": "موسوی",
+    "position": Object {
+      "lat": -33.462256,
+      "lon": 107.804101,
+    },
+  },
+  Object {
+    "birthDay": "08/16/1966",
+    "firstName": "فاطمه",
+    "lastName": "موسوی",
+    "position": Object {
+      "lat": 68.970608,
+      "lon": -43.8322,
+    },
+  },
+  Object {
+    "birthDay": "02/18/1966",
+    "firstName": "محمد",
+    "lastName": "موسوی",
+    "position": Object {
+      "lat": 87.839302,
+      "lon": 22.110935,
+    },
+  },
+  Object {
+    "birthDay": "03/24/1957",
+    "firstName": "آراد",
+    "lastName": "موسوی",
+    "position": Object {
+      "lat": 58.782949,
+      "lon": -28.438977,
+    },
+  },
+  Object {
+    "birthDay": "02/09/1956",
+    "firstName": "آرسین",
+    "lastName": "مرادی",
+    "position": Object {
+      "lat": -2.856566,
+      "lon": 19.534129,
+    },
+  },
+  Object {
+    "birthDay": "03/26/1957",
+    "firstName": "آدرینا",
+    "lastName": "مرادی",
+    "position": Object {
+      "lat": 76.470636,
+      "lon": 28.664492,
+    },
+  },
+  Object {
+    "birthDay": "05/29/1958",
+    "firstName": "آنیتا",
+    "lastName": "مرادی",
+    "position": Object {
+      "lat": -89.112304,
+      "lon": -63.949556,
+    },
+  },
+  Object {
+    "birthDay": "08/27/1964",
+    "firstName": "عرشيا",
+    "lastName": "مرادی",
+    "position": Object {
+      "lat": 88.167781,
+      "lon": 8.752057,
+    },
+  },
+  Object {
+    "birthDay": "05/26/1950",
+    "firstName": "اميرحسين",
+    "lastName": "محمدخان",
+    "position": Object {
+      "lat": 62.587828,
+      "lon": 80.20479,
+    },
+  },
+  Object {
+    "birthDay": "11/18/1954",
+    "firstName": "تینا",
+    "lastName": "كامياران",
+    "position": Object {
+      "lat": -21.034155,
+      "lon": -38.345019,
+    },
+  },
+  Object {
+    "birthDay": "03/17/1952",
+    "firstName": "بهار",
+    "lastName": "كامياران",
+    "position": Object {
+      "lat": 75.800649,
+      "lon": -15.919329,
+    },
+  },
+  Object {
+    "birthDay": "09/07/1955",
+    "firstName": "اميرعلي",
+    "lastName": "قاسمی",
+    "position": Object {
+      "lat": 20.540838,
+      "lon": 32.171031,
+    },
+  },
+  Object {
+    "birthDay": "10/02/1960",
+    "firstName": "نازنین",
+    "lastName": "قاسمی",
+    "position": Object {
+      "lat": -51.156131,
+      "lon": 47.435482,
+    },
+  },
+  Object {
+    "birthDay": "07/27/1965",
+    "firstName": "ثنا",
+    "lastName": "قاسمی",
+    "position": Object {
+      "lat": 45.559121,
+      "lon": -76.178742,
+    },
+  },
+  Object {
+    "birthDay": "09/13/1960",
+    "firstName": "کوروش",
+    "lastName": "علیزاده",
+    "position": Object {
+      "lat": 87.187908,
+      "lon": 4.904778,
+    },
+  },
+  Object {
+    "birthDay": "02/14/1958",
+    "firstName": "سام",
+    "lastName": "علیزاده",
+    "position": Object {
+      "lat": -85.334463,
+      "lon": 126.420155,
+    },
+  },
+  Object {
+    "birthDay": "05/17/1965",
+    "firstName": "تارا",
+    "lastName": "صدر",
+    "position": Object {
+      "lat": -62.981165,
+      "lon": 90.912687,
+    },
+  },
+  Object {
+    "birthDay": "12/11/1954",
+    "firstName": "رها",
+    "lastName": "صدر",
+    "position": Object {
+      "lat": 83.028945,
+      "lon": 69.757298,
+    },
+  },
+  Object {
+    "birthDay": "12/17/1952",
+    "firstName": "علی رضا",
+    "lastName": "صدر",
+    "position": Object {
+      "lat": -24.564721,
+      "lon": -12.670649,
+    },
+  },
+  Object {
+    "birthDay": "06/17/1964",
+    "firstName": "آوین",
+    "lastName": "صدر",
+    "position": Object {
+      "lat": 36.016615,
+      "lon": -57.124369,
+    },
+  },
+  Object {
+    "birthDay": "05/13/1957",
+    "firstName": "کیمیا",
+    "lastName": "صدر",
+    "position": Object {
+      "lat": 58.271474,
+      "lon": -139.479875,
+    },
+  },
+  Object {
+    "birthDay": "10/12/1948",
+    "firstName": "آریا",
+    "lastName": "سهيلي راد",
+    "position": Object {
+      "lat": -86.18912,
+      "lon": 107.333163,
+    },
+  },
+  Object {
+    "birthDay": "10/08/1963",
+    "firstName": "زهرا",
+    "lastName": "سهيلي راد",
+    "position": Object {
+      "lat": 26.265913,
+      "lon": 132.219565,
+    },
+  },
+  Object {
+    "birthDay": "06/05/1947",
+    "firstName": "محمد",
+    "lastName": "سهيلي راد",
+    "position": Object {
+      "lat": -40.840686,
+      "lon": 144.860262,
+    },
+  },
+  Object {
+    "birthDay": "08/24/1967",
+    "firstName": "آیناز",
+    "lastName": "سلطانی نژاد",
+    "position": Object {
+      "lat": -34.155703,
+      "lon": -21.90812,
+    },
+  },
+  Object {
+    "birthDay": "05/28/1964",
+    "firstName": "محمدامين",
+    "lastName": "سلطانی نژاد",
+    "position": Object {
+      "lat": 39.028836,
+      "lon": 177.397024,
+    },
+  },
+  Object {
+    "birthDay": "06/05/1966",
+    "firstName": "ماهان",
+    "lastName": "سلطانی نژاد",
+    "position": Object {
+      "lat": 43.159278,
+      "lon": -130.360127,
+    },
+  },
+  Object {
+    "birthDay": "01/08/1964",
+    "firstName": "آیناز",
+    "lastName": "سالاری",
+    "position": Object {
+      "lat": 75.175255,
+      "lon": -152.336799,
+    },
+  },
+  Object {
+    "birthDay": "10/31/1956",
+    "firstName": "پوریا",
+    "lastName": "سالاری",
+    "position": Object {
+      "lat": -55.027029,
+      "lon": -176.660963,
+    },
+  },
+  Object {
+    "birthDay": "01/30/1961",
+    "firstName": "یلدا",
+    "lastName": "زارعی",
+    "position": Object {
+      "lat": 62.649009,
+      "lon": 150.09693,
+    },
+  },
+  Object {
+    "birthDay": "12/11/1948",
+    "firstName": "فاطمه زهرا",
+    "lastName": "زارعی",
+    "position": Object {
+      "lat": 15.069152,
+      "lon": -107.596824,
+    },
+  },
+  Object {
+    "birthDay": "04/21/1953",
+    "firstName": "النا",
+    "lastName": "زارعی",
+    "position": Object {
+      "lat": -64.505142,
+      "lon": -101.296369,
+    },
+  },
+  Object {
+    "birthDay": "08/31/1945",
+    "firstName": "رها",
+    "lastName": "زارعی",
+    "position": Object {
+      "lat": 29.547952,
+      "lon": 13.66573,
+    },
+  },
+  Object {
+    "birthDay": "04/15/1949",
+    "firstName": "سهیل",
+    "lastName": "رضاییان",
+    "position": Object {
+      "lat": -51.721355,
+      "lon": -120.286501,
+    },
+  },
+  Object {
+    "birthDay": "06/17/1950",
+    "firstName": "آریا",
+    "lastName": "رضایی",
+    "position": Object {
+      "lat": -14.640011,
+      "lon": -3.633985,
+    },
+  },
+  Object {
+    "birthDay": "02/18/1950",
+    "firstName": "محمدعلی",
+    "lastName": "رضایی",
+    "position": Object {
+      "lat": 21.032531,
+      "lon": -89.904955,
+    },
+  },
+  Object {
+    "birthDay": "12/02/1946",
+    "firstName": "بردیا",
+    "lastName": "رضایی",
+    "position": Object {
+      "lat": 12.099934,
+      "lon": -119.659987,
+    },
+  },
+  Object {
+    "birthDay": "06/30/1962",
+    "firstName": "ثنا",
+    "lastName": "رضایی",
+    "position": Object {
+      "lat": 51.313944,
+      "lon": 125.945976,
+    },
+  },
+  Object {
+    "birthDay": "09/10/1962",
+    "firstName": "اميرعلي",
+    "lastName": "رضایی",
+    "position": Object {
+      "lat": -79.36203,
+      "lon": 172.672312,
+    },
+  },
+  Object {
+    "birthDay": "01/25/1963",
+    "firstName": "مهرسا",
+    "lastName": "حیدری",
+    "position": Object {
+      "lat": -5.374476,
+      "lon": 160.060514,
+    },
+  },
+  Object {
+    "birthDay": "04/23/1949",
+    "firstName": "آرسین",
+    "lastName": "حیدری",
+    "position": Object {
+      "lat": 10.519802,
+      "lon": -114.244113,
+    },
+  },
+  Object {
+    "birthDay": "04/04/1965",
+    "firstName": "آوینا",
+    "lastName": "حیدری",
+    "position": Object {
+      "lat": 67.000216,
+      "lon": 14.474168,
+    },
+  },
+  Object {
+    "birthDay": "08/14/1947",
+    "firstName": "رها",
+    "lastName": "حسینی",
+    "position": Object {
+      "lat": 40.887868,
+      "lon": -6.597742,
+    },
+  },
+  Object {
+    "birthDay": "12/28/1964",
+    "firstName": "محمدامين",
+    "lastName": "حسینی",
+    "position": Object {
+      "lat": -17.853041,
+      "lon": 5.616973,
+    },
+  },
+  Object {
+    "birthDay": "11/29/1963",
+    "firstName": "سهیل",
+    "lastName": "حسینی",
+    "position": Object {
+      "lat": 25.790261,
+      "lon": -134.023715,
+    },
+  },
+  Object {
+    "birthDay": "11/08/1948",
+    "firstName": "شایان",
+    "lastName": "احمدی",
+    "position": Object {
+      "lat": 10.031488,
+      "lon": -91.110661,
+    },
+  },
+  Object {
+    "birthDay": "12/15/1962",
+    "firstName": "رهام",
+    "lastName": "احمدی",
+    "position": Object {
+      "lat": 77.573361,
+      "lon": 2.81842,
+    },
+  },
+  Object {
+    "birthDay": "08/18/1963",
+    "firstName": "سپهر",
+    "lastName": "احمدی",
+    "position": Object {
+      "lat": -13.100373,
+      "lon": -6.910964,
+    },
+  },
+  Object {
+    "birthDay": "09/09/1946",
+    "firstName": "nurdan",
+    "lastName": "özgörkey",
+    "position": Object {
+      "lat": 4.243957,
+      "lon": 53.853402,
+    },
+  },
+  Object {
+    "birthDay": "05/29/1967",
+    "firstName": "nalan",
+    "lastName": "özdoğan",
+    "position": Object {
+      "lat": 25.243183,
+      "lon": 97.051899,
+    },
+  },
+  Object {
+    "birthDay": "04/04/1954",
+    "firstName": "afşar",
+    "lastName": "özbir",
+    "position": Object {
+      "lat": -16.812907,
+      "lon": -78.338982,
+    },
+  },
+  Object {
+    "birthDay": "08/29/1958",
+    "firstName": "ülkü",
+    "lastName": "özbey",
+    "position": Object {
+      "lat": -9.65,
+      "lon": 164.850623,
+    },
+  },
+  Object {
+    "birthDay": "10/03/1951",
+    "firstName": "mestan",
+    "lastName": "çevik",
+    "position": Object {
+      "lat": 82.332421,
+      "lon": -115.581737,
+    },
+  },
+  Object {
+    "birthDay": "06/21/1958",
+    "firstName": "gonca",
+    "lastName": "çağıran",
+    "position": Object {
+      "lat": -56.544013,
+      "lon": 168.857125,
+    },
+  },
+  Object {
+    "birthDay": "05/10/1962",
+    "firstName": "gül",
+    "lastName": "çatalbaş",
+    "position": Object {
+      "lat": -75.647821,
+      "lon": -119.488524,
+    },
+  },
+  Object {
+    "birthDay": "03/31/1958",
+    "firstName": "babür",
+    "lastName": "çankaya",
+    "position": Object {
+      "lat": -48.511818,
+      "lon": -150.139138,
+    },
+  },
+  Object {
+    "birthDay": "12/06/1947",
+    "firstName": "bruno",
+    "lastName": "zimmer",
+    "position": Object {
+      "lat": -39.547525,
+      "lon": -96.786616,
+    },
+  },
+  Object {
+    "birthDay": "10/03/1963",
+    "firstName": "sadie",
+    "lastName": "zhang",
+    "position": Object {
+      "lat": 38.052995,
+      "lon": -90.143395,
+    },
+  },
+  Object {
+    "birthDay": "12/14/1946",
+    "firstName": "zara",
+    "lastName": "zhang",
+    "position": Object {
+      "lat": -49.323756,
+      "lon": 12.019572,
+    },
+  },
+  Object {
+    "birthDay": "06/21/1960",
+    "firstName": "aiden",
+    "lastName": "zhang",
+    "position": Object {
+      "lat": -57.742319,
+      "lon": -88.59847,
+    },
+  },
+  Object {
+    "birthDay": "02/23/1950",
+    "firstName": "joshua",
+    "lastName": "zhang",
+    "position": Object {
+      "lat": -3.717702,
+      "lon": 166.814247,
+    },
+  },
+  Object {
+    "birthDay": "08/21/1958",
+    "firstName": "harrison",
+    "lastName": "zhang",
+    "position": Object {
+      "lat": 58.562671,
+      "lon": -59.559471,
+    },
+  },
+  Object {
+    "birthDay": "06/29/1967",
+    "firstName": "ayşe",
+    "lastName": "yılmazer",
+    "position": Object {
+      "lat": 51.096465,
+      "lon": 27.23949,
+    },
+  },
+  Object {
+    "birthDay": "04/29/1967",
+    "firstName": "mia",
+    "lastName": "young",
+    "position": Object {
+      "lat": 21.200239,
+      "lon": 93.831718,
+    },
+  },
+  Object {
+    "birthDay": "05/05/1950",
+    "firstName": "maxime",
+    "lastName": "young",
+    "position": Object {
+      "lat": -53.975674,
+      "lon": 34.239222,
+    },
+  },
+  Object {
+    "birthDay": "04/01/1962",
+    "firstName": "annabelle",
+    "lastName": "young",
+    "position": Object {
+      "lat": -41.538693,
+      "lon": 92.578638,
+    },
+  },
+  Object {
+    "birthDay": "12/21/1949",
+    "firstName": "buse",
+    "lastName": "yorulmaz",
+    "position": Object {
+      "lat": 64.230176,
+      "lon": -94.167923,
+    },
+  },
+  Object {
+    "birthDay": "03/06/1946",
+    "firstName": "anton",
+    "lastName": "ylitalo",
+    "position": Object {
+      "lat": 65.858771,
+      "lon": 162.622159,
+    },
+  },
+  Object {
+    "birthDay": "09/04/1949",
+    "firstName": "ahmet",
+    "lastName": "yetkiner",
+    "position": Object {
+      "lat": 21.39797,
+      "lon": 1.858801,
+    },
+  },
+  Object {
+    "birthDay": "02/19/1960",
+    "firstName": "viivi",
+    "lastName": "wuollet",
+    "position": Object {
+      "lat": -72.897991,
+      "lon": -176.802967,
+    },
+  },
+  Object {
+    "birthDay": "09/25/1950",
+    "firstName": "ross",
+    "lastName": "wright",
+    "position": Object {
+      "lat": -2.079453,
+      "lon": -93.064085,
+    },
+  },
+  Object {
+    "birthDay": "10/16/1960",
+    "firstName": "dylan",
+    "lastName": "wright",
+    "position": Object {
+      "lat": 45.905103,
+      "lon": 141.381849,
+    },
+  },
+  Object {
+    "birthDay": "07/02/1965",
+    "firstName": "paige",
+    "lastName": "wright",
+    "position": Object {
+      "lat": -36.149872,
+      "lon": 137.00258,
+    },
+  },
+  Object {
+    "birthDay": "10/27/1954",
+    "firstName": "katie",
+    "lastName": "wright",
+    "position": Object {
+      "lat": -49.510666,
+      "lon": 130.068027,
+    },
+  },
+  Object {
+    "birthDay": "01/21/1957",
+    "firstName": "leah",
+    "lastName": "woods",
+    "position": Object {
+      "lat": 46.955548,
+      "lon": 34.115707,
+    },
+  },
+  Object {
+    "birthDay": "06/25/1965",
+    "firstName": "adam",
+    "lastName": "wood",
+    "position": Object {
+      "lat": 60.582253,
+      "lon": 64.151422,
+    },
+  },
+  Object {
+    "birthDay": "06/22/1958",
+    "firstName": "fernando",
+    "lastName": "wood",
+    "position": Object {
+      "lat": -37.350056,
+      "lon": 65.405478,
+    },
+  },
+  Object {
+    "birthDay": "02/09/1959",
+    "firstName": "brooklyn",
+    "lastName": "wood",
+    "position": Object {
+      "lat": -86.269716,
+      "lon": -38.34308,
+    },
+  },
+  Object {
+    "birthDay": "09/23/1954",
+    "firstName": "olivia",
+    "lastName": "wirta",
+    "position": Object {
+      "lat": 43.700379,
+      "lon": 163.801752,
+    },
+  },
+  Object {
+    "birthDay": "02/25/1961",
+    "firstName": "antonio",
+    "lastName": "wimmer",
+    "position": Object {
+      "lat": 26.042984,
+      "lon": 5.706692,
+    },
+  },
+  Object {
+    "birthDay": "10/11/1950",
+    "firstName": "felix",
+    "lastName": "wilson",
+    "position": Object {
+      "lat": -84.577327,
+      "lon": 117.755657,
+    },
+  },
+  Object {
+    "birthDay": "06/23/1952",
+    "firstName": "shane",
+    "lastName": "wilson",
+    "position": Object {
+      "lat": 12.123095,
+      "lon": 148.889065,
+    },
+  },
+  Object {
+    "birthDay": "06/18/1952",
+    "firstName": "lily",
+    "lastName": "williams",
+    "position": Object {
+      "lat": 65.739287,
+      "lon": 163.131816,
+    },
+  },
+  Object {
+    "birthDay": "02/17/1954",
+    "firstName": "arthur",
+    "lastName": "williams",
+    "position": Object {
+      "lat": 12.703897,
+      "lon": 112.98639,
+    },
+  },
+]
+`;
+
+exports[`Step 3 search test Search by position should return handle pagination 1`] = `
+Array [
+  Object {
+    "birthDay": "12/11/1986",
+    "firstName": "elise",
+    "lastName": "vidal",
+    "position": Object {
+      "lat": -0.868205,
+      "lon": -0.154311,
+    },
+  },
+  Object {
+    "birthDay": "09/23/1977",
+    "firstName": "vinzenz",
+    "lastName": "wirth",
+    "position": Object {
+      "lat": -2.419035,
+      "lon": -1.777423,
+    },
+  },
+  Object {
+    "birthDay": "07/20/1953",
+    "firstName": "landon",
+    "lastName": "williams",
+    "position": Object {
+      "lat": 2.516117,
+      "lon": -3.128542,
+    },
+  },
+  Object {
+    "birthDay": "01/03/1966",
+    "firstName": "veera",
+    "lastName": "heino",
+    "position": Object {
+      "lat": 2.910326,
+      "lon": -2.856435,
+    },
+  },
+  Object {
+    "birthDay": "04/29/1971",
+    "firstName": "yasemin",
+    "lastName": "çetiner",
+    "position": Object {
+      "lat": -4.36371,
+      "lon": 0.436032,
+    },
+  },
+  Object {
+    "birthDay": "12/29/1984",
+    "firstName": "max",
+    "lastName": "santos",
+    "position": Object {
+      "lat": -4.350646,
+      "lon": -1.320734,
+    },
+  },
+  Object {
+    "birthDay": "08/03/1989",
+    "firstName": "megan",
+    "lastName": "macdonald",
+    "position": Object {
+      "lat": -4.197434,
+      "lon": 6.503669,
+    },
+  },
+  Object {
+    "birthDay": "06/02/1992",
+    "firstName": "clifford",
+    "lastName": "wright",
+    "position": Object {
+      "lat": -6.247176,
+      "lon": 6.397853,
+    },
+  },
+  Object {
+    "birthDay": "07/01/1946",
+    "firstName": "pihla",
+    "lastName": "sakala",
+    "position": Object {
+      "lat": 2.374096,
+      "lon": -10.383539,
+    },
+  },
+  Object {
+    "birthDay": "09/02/1977",
+    "firstName": "filippa",
+    "lastName": "jensen",
+    "position": Object {
+      "lat": 5.93856,
+      "lon": 9.078049,
+    },
+  },
+]
+`;
+
+exports[`Step 3 search test Search by position should return matching users 1`] = `
+Array [
+  Object {
+    "birthDay": "12/11/1986",
+    "firstName": "elise",
+    "lastName": "vidal",
+    "position": Object {
+      "lat": -0.868205,
+      "lon": -0.154311,
+    },
+  },
+  Object {
+    "birthDay": "09/23/1977",
+    "firstName": "vinzenz",
+    "lastName": "wirth",
+    "position": Object {
+      "lat": -2.419035,
+      "lon": -1.777423,
+    },
+  },
+  Object {
+    "birthDay": "07/20/1953",
+    "firstName": "landon",
+    "lastName": "williams",
+    "position": Object {
+      "lat": 2.516117,
+      "lon": -3.128542,
+    },
+  },
+  Object {
+    "birthDay": "01/03/1966",
+    "firstName": "veera",
+    "lastName": "heino",
+    "position": Object {
+      "lat": 2.910326,
+      "lon": -2.856435,
+    },
+  },
+  Object {
+    "birthDay": "04/29/1971",
+    "firstName": "yasemin",
+    "lastName": "çetiner",
+    "position": Object {
+      "lat": -4.36371,
+      "lon": 0.436032,
+    },
+  },
+  Object {
+    "birthDay": "12/29/1984",
+    "firstName": "max",
+    "lastName": "santos",
+    "position": Object {
+      "lat": -4.350646,
+      "lon": -1.320734,
+    },
+  },
+  Object {
+    "birthDay": "08/03/1989",
+    "firstName": "megan",
+    "lastName": "macdonald",
+    "position": Object {
+      "lat": -4.197434,
+      "lon": 6.503669,
+    },
+  },
+  Object {
+    "birthDay": "06/02/1992",
+    "firstName": "clifford",
+    "lastName": "wright",
+    "position": Object {
+      "lat": -6.247176,
+      "lon": 6.397853,
+    },
+  },
+  Object {
+    "birthDay": "07/01/1946",
+    "firstName": "pihla",
+    "lastName": "sakala",
+    "position": Object {
+      "lat": 2.374096,
+      "lon": -10.383539,
+    },
+  },
+  Object {
+    "birthDay": "09/02/1977",
+    "firstName": "filippa",
+    "lastName": "jensen",
+    "position": Object {
+      "lat": 5.93856,
+      "lon": 9.078049,
+    },
+  },
+]
+`;
+
+exports[`Step 3 search test Search by text should return handle pagination 1`] = `Array []`;
+
+exports[`Step 3 search test Search by text should return matching users 1`] = `
+Array [
+  Object {
+    "birthDay": "06/09/1969",
+    "firstName": "eliot",
+    "lastName": "lopez",
+    "position": Object {
+      "lat": 25.034292,
+      "lon": -100.805179,
+    },
+  },
+  Object {
+    "birthDay": "12/16/1981",
+    "firstName": "maya",
+    "lastName": "lopez",
+    "position": Object {
+      "lat": 86.244939,
+      "lon": 171.417535,
+    },
+  },
+  Object {
+    "birthDay": "06/10/1945",
+    "firstName": "susan",
+    "lastName": "lopez",
+    "position": Object {
+      "lat": -42.066757,
+      "lon": -23.199985,
+    },
+  },
+  Object {
+    "birthDay": "02/02/1978",
+    "firstName": "eliott",
+    "lastName": "lopez",
+    "position": Object {
+      "lat": 1.147366,
+      "lon": 36.645661,
+    },
+  },
+  Object {
+    "birthDay": "09/14/1963",
+    "firstName": "eloane",
+    "lastName": "lopez",
+    "position": Object {
+      "lat": 78.338982,
+      "lon": -175.829371,
+    },
+  },
+  Object {
+    "birthDay": "10/18/1975",
+    "firstName": "jose",
+    "lastName": "lopez",
+    "position": Object {
+      "lat": -2.48192,
+      "lon": -115.104895,
+    },
+  },
+  Object {
+    "birthDay": "03/24/1993",
+    "firstName": "clifton",
+    "lastName": "lopez",
+    "position": Object {
+      "lat": -76.452594,
+      "lon": -151.286017,
+    },
+  },
+]
+`;
