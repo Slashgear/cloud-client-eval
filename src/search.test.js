@@ -2,6 +2,7 @@ const _ = require('lodash');
 
 const baseUrl = require('../baseUrl');
 const request = require('supertest')(baseUrl);
+const moment = require('moment');
 
 const usersData = require('../data/2000users.json');
 
@@ -33,22 +34,34 @@ describe('Step 3 search test', () => {
         it('should return users', done => {
             request.get('/user/age?gt=50').end((err, res)=> {
                 const users = _.map(res.body, user => _.omit(user, 'id'));
-                expect(users).toMatchSnapshot();
+                users.forEach(user => {
+                    expect(moment().diff(moment(user.birthDay, "MM/DD/YYYY"), 'years')).toBeGreaterThanOrEqual(50)
+                });
                 done();
             });
         });
 
         it('should return different users for page 2', done => {
-            request.get('/user/age?gt=50&page=2').end((err, res)=> {
-                const users = _.map(res.body, user => _.omit(user, 'id'));
-                expect(users).toMatchSnapshot();
+            return request.get('/user/age?gt=50&page=0').end((err, res) => {
+                const users0 = _.map(res.body, user => _.omit(user, 'id'));
+                return request.get('/user/age?gt=50&page=1').end((err, res1) => {
+                    const user1 = _.map(res1.body, user => _.omit(user, 'id'));
+                    expect(_.intersectionWith(users0, user1 , _.isEqual)).toEqual([]);
+                    done();
+                });
+            });
+        });
+
+        it('should return 8 users of 73 years old', done => {
+            request.get('/user/age?gt=73').end((err, res)=> {
+                expect(res.body.length).toEqual(8);
                 done();
             });
         });
 
-        it('should return 0 user of more than 80 years old', done => {
-            request.get('/user/age?gt=73').end((err, res)=> {
-                expect(res.body.length).toEqual(8);
+        it('should return 0 users of more than 80 years old', done => {
+            request.get('/user/age?gt=80').end((err, res)=> {
+                expect(res.body.length).toEqual(0);
                 done();
             });
         });
@@ -86,16 +99,21 @@ describe('Step 3 search test', () => {
         it('should return matching users', done => {
             request.get('/user/search?term=lopez').end((err, res)=> {
                 const users = _.map(res.body, user => _.omit(user, 'id'));
-                expect(users).toMatchSnapshot();
+                users.map(user => {
+                    expect(user.firstName + user.lastName).toEqual(expect.stringMatching(/lopez/));
+                });
                 done();
             });
         });
 
         it('should return handle pagination', done => {
-            request.get('/user/search?term=lopez&page=2').end((err, res)=> {
-                const users = _.map(res.body, user => _.omit(user, 'id'));
-                expect(users).toMatchSnapshot();
-                done();
+            return request.get('/user/search?term=lopez').end((err, res) => {
+                const users0 = _.map(res.body, user => _.omit(user, 'id'));
+                return request.get('/user/search?term=lopez&page=1').end((err, res1) => {
+                    const user1 = _.map(res1.body, user => _.omit(user, 'id'));
+                    expect(_.intersectionWith(users0, user1 , _.isEqual)).toEqual([]);
+                    done();
+                });
             });
         });
     });
@@ -106,16 +124,15 @@ describe('Step 3 search test', () => {
             request.get('/user/nearest?lat=0&lon=0').expect(200).end(done)
         });
 
-        it('should return matching users', done => {
+        it('should return array', done => {
             request.get('/user/nearest?lat=0&lon=0').end((err, res)=> {
-                const users = _.map(res.body, user => _.omit(user, 'id'));
-                expect(users).toMatchSnapshot();
+                expect(_.isArray(res.body)).toBe(true);
                 done();
             });
         });
 
-        it('should return handle pagination', done => {
-            request.get('/user/nearest?lat=0&lon=0&page=2').end((err, res)=> {
+        it('should return matching users', done => {
+            request.get('/user/nearest?lat=0&lon=0').end((err, res)=> {
                 const users = _.map(res.body, user => _.omit(user, 'id'));
                 expect(users).toMatchSnapshot();
                 done();

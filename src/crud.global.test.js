@@ -64,10 +64,10 @@ describe('Step 1 global REST calls', () => {
                 });
             });
 
-            it('should return users order by', done => {
+            it('should return users', done => {
                 request.get('/user').end((err,res) => {
                     const users = _.map(res.body, user => _.omit(user, 'id'));
-                    expect(users).toMatchSnapshot();
+                    expect(_.differenceWith(users, tenUsers, _.isEqual)).toEqual([]);
                     done();
                 });
             })

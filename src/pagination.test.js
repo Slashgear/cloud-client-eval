@@ -61,17 +61,14 @@ describe('Step 2 pagination', () => {
         request.get('/user?page=1000').expect([]).end(done);
     });
 
-    it('should contain this users on page 0', done => {
-        request.get('/user?page=0').end((err, res) => {
-            expect(_.map(res.body, user => _.omit(user, 'id'))).toMatchSnapshot();
-            done();
-        });
-    });
-
-    it('should contain this users on page 1', done => {
-        request.get('/user?page=1').end((err, res) => {
-            expect(_.map(res.body, user => _.omit(user, 'id'))).toMatchSnapshot();
-            done();
+    it('should contain different users in different page', done => {
+        return request.get('/user?page=0').end((err, res) => {
+            const users0 = _.map(res.body, user => _.omit(user, 'id'));
+            return request.get('/user?page=1').end((err, res1) => {
+                const user1 = _.map(res1.body, user => _.omit(user, 'id'));
+                expect(_.intersectionWith(users0, user1 , _.isEqual)).toEqual([]);
+                done();
+            });
         });
     });
 });
