@@ -54,7 +54,7 @@ describe('Step 3 search test', () => {
 
         it('should return 8 users of 73 years old', done => {
             request.get('/user/age?gt=73').end((err, res)=> {
-                expect(res.body.length).toEqual(8);
+                expect(res.body.length).toBeGreaterThanOrEqual(8);
                 done();
             });
         });
@@ -64,6 +64,10 @@ describe('Step 3 search test', () => {
                 expect(res.body.length).toEqual(0);
                 done();
             });
+        });
+
+        it('should return Bad request for negative age', done => {
+            request.get('/user/age?gt=-10').expect(400).end(done);
         });
     });
 

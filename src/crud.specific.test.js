@@ -52,15 +52,6 @@ describe('Step 1 specific REST calls', () => {
             })
         });
 
-        it('should return empty object', done => {
-            request.post('/user').send(simpleUser).end((err,res) => {
-                request.delete(`/user/${res.body.id}`)
-                    .expect(res => {
-                        expect(res.body).toEqual({});
-                    }).end(done);
-            })
-        });
-
         it('should return 500 status', done => {
             request.post('/user').send(simpleUser).end((err,res) => {
                 request.delete(`/user/fakeid`).expect(500).end(done);
