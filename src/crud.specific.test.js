@@ -7,6 +7,10 @@ const simpleUser = require('../data/user.json');
 
 describe('Step 1 specific REST calls', () => {
 
+    afterAll(done => {
+        request.delete('/user').expect(200, done);
+    });
+
     describe('GET /user/:id',() => {
         let id;
 

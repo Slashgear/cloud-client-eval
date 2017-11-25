@@ -8,6 +8,10 @@ const tenUsers = require('../data/tenUsers.json');
 
 describe('Step 1 global REST calls', () => {
 
+    afterAll(done => {
+        request.delete('/user').expect(200, done);
+    });
+
     describe('DELETE /user',() => {
         it('should return 200 status', done => {
             request.delete('/user').expect(200, done);
