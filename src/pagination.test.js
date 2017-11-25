@@ -39,10 +39,10 @@ describe('Step 2 pagination', () => {
         let usersFirstPage0;
         request.get('/user').end((err, res) => {
             usersFirstPage0 = _.map(res.body, user => _.omit(user, 'id'));
-        });
-        request.get('/user?page=0').end((err, res) => {
-            expect(usersFirstPage0).toEqual(_.map(res.body, user => _.omit(user, 'id')))
-            done();
+            request.get('/user?page=0').end((err, res) => {
+                expect(usersFirstPage0).toEqual(_.map(res.body, user => _.omit(user, 'id')))
+                done();
+            });
         });
     });
 
@@ -50,10 +50,10 @@ describe('Step 2 pagination', () => {
         let usersFirstPage0;
         request.get('/user').end((err, res) => {
             usersFirstPage0 = _.map(res.body, user => _.omit(user, 'id'));
-        });
-        request.get('/user?page=1').end((err, res) => {
-            expect(usersFirstPage0).not.toEqual(_.map(res.body, user => _.omit(user, 'id')))
-            done();
+            request.get('/user?page=1').end((err, res) => {
+                expect(usersFirstPage0).not.toEqual(_.map(res.body, user => _.omit(user, 'id')))
+                done();
+            });
         });
     });
 
