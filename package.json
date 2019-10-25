@@ -6,7 +6,7 @@
   "author": "Slashgear <antoine395.caron@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "lodash": "4.17.4",
+    "lodash": "4.17.15",
     "moment": "^2.19.2"
   },
   "scripts": {
@@ -17,9 +17,9 @@
     "step:3bis": "jest perf --runInBand"
   },
   "devDependencies": {
-    "babel-jest": "21.2.0",
-    "jest": "21.2.1",
-    "regenerator-runtime": "0.11.0",
-    "supertest": "3.0.0"
+    "babel-jest": "24.9.0",
+    "jest": "24.9.0",
+    "regenerator-runtime": "0.13.3",
+    "supertest": "4.0.2"
   }
 }
