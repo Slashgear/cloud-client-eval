@@ -1,5 +1,7 @@
 # Cloud client API eval
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Slashgear/cloud-client-eval.svg)](https://greenkeeper.io/)
+
 Npm package to eval cloud API of course https://github.com/Slashgear/cloud
 
 * clone repository
