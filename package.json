@@ -6,7 +6,7 @@
   "author": "Slashgear <antoine395.caron@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "lodash": "4.17.4",
+    "lodash": "4.17.13",
     "moment": "^2.19.2"
   },
   "scripts": {
