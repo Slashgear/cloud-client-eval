@@ -5,7 +5,7 @@ Npm package to eval cloud API of course https://github.com/Slashgear/cloud
 * clone repository
 * npm install
 
-Change [baseUrl.json](baseUrl.json) configuration to test another env.
+Change [baseUrl.js](baseUrl.js) configuration to test another env.
 
 * `npm test` to start all tests.
 * `npm run step:1` to start client request step 1 tests (CRUD)
